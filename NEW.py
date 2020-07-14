@@ -118,7 +118,7 @@ def login():
      	
 		
 		jalan(' \033[1;97m   ✧ \033[1;97mWarning: \033[1;97mUse a New Account To Login' )
-		jalan(' \033[1;97m   ✧ \033[1;97m👉 : \033[1;97mIF YOU'R FACING SOME PROBLEMS CONTACT ME ON INSTA' ) 
+		jalan(' \033[1;97m   ✧ \033[1;97m👉 : \033[1;97mIF YOU R FACING SOME PROBLEMS CONTACT ME ON INSTA' ) 
 		
 		print('	' )
 		print('      \033[1;97m      ✧ \x1b[1;97mLogin With instagram\x1b[1;97m ✧')
